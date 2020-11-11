@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "MONTSERRAT";
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden; 
+
+}
+nav{
+    position: fixed;
+}
+#navid{
+    font-weight: 800px;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2px 200px;
+    background-color: whitesmoke;
+    text-transform: uppercase;
+}
+
+#head{
+    font-size: 30px;
+
+}
+.navclass{
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    opacity: .9;
+}
+.navclass>p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.shop>i{
+    
+    margin-right: 20px;
+
+}
+
+.cart>i{
+    margin-right: 20px;
+}
+
+#banner{
+    width: 100%;
+    height: calc(100% - 30px);
+    padding: 0 20px;
+   
+    
+}
+
+#jumbotron{
+    height: 100%;
+    width: 100%;
+    background-image: url("../image/banner1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+}
+
+
+
+
+
+.same{
+    width: 33.33%;
+    height: 100%;
+    padding: 40px;
+}
+.same>span{
+    display: flex;
+    width: 40px;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+   
+    
+    
+}
+#jumbo-items1>section{
+    transform: rotate(270deg);
+
+}
+#jumbo-items2{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    
+}
+#jumbo-items2>h1{
+    margin-bottom: 20px;
+    color: white;
+    font-size: 45px;
+
+}
+
+#btnid{
+    font-size: 15px;
+    font-weight: 500;
+    width: 132px;
+    height: 32px;
+    border: 2px solid white;
+    color: white;
+    background-color: transparent;
+    margin-bottom: 110px;
+
+}
+
+#jumbo-items3>section{ 
+    transform: rotate(-270deg);
+}
+#jumbo-items3>i{
+    position: relative;
+    top: 30%;
+}
+
+.a1>span{
+    position: relative;
+    right: calc(-400px + 40px);
+}
+
+
+#content1{
+    width: 100%;
+    height: 200px;
+    background-color: white;
+    padding: 80px 230px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#content1 div{
+    width: 100%;
+    height: 100%;
+}
+
+#title{
+    font-size: 25px;
+    font-weight: 500px;
+}
+
+#para{
+    font-size: 15px;
+    font-weight: 200px;
+}

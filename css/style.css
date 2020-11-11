@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    height: 600px;
+    position: absolute;
+    left: 50%;
+    top:50% ;
+    transform: translate(-50%,-50%);
+    animation:anim2 2s cubic-bezier(0.19, 1, 0.22, 1) 5s both;
+
+}
+#logosadhu{
+    width: 300px;
+    height: 300px;
+    display: flex;
+    border-radius: 50%;
+    background-color: orange;
+    align-items: center;
+    justify-content: center;
+    animation: anim1 4s cubic-bezier(0.19, 1, 0.22, 1) 1s both; 
+    
+}
+
+#logosadhu>img{
+    border-radius: 50%;
+    
+}
+
+@keyframes anim1{
+    50%{
+        transform: scale(2,2);
+    }
+
+    100%{
+        transform: scale(1,1);
+    }
+}
+
+@keyframes anim2{
+    to{
+        margin-top: -150px;
+    }
+
+}
+
+#txtdiv{
+    position: absolute;
+    left: 50%;
+    top:110% ;
+    transform: translate(-50%,-50%);
+    animation: anim3 3s cubic-bezier(0.19, 1, 0.22, 1) 7s both;
+}
+#txt{
+    letter-spacing: 5px;
+    line-height: 40px;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+
+@keyframes anim3{
+    to{
+       top: 70%; 
+    }
+
+}
+
