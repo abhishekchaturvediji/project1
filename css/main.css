@@ -11,6 +11,8 @@ html,body{
     overflow-x: hidden; 
 
 }
+/* 
+ designing navbar */
 nav{
     position: fixed;
 }
@@ -50,7 +52,7 @@ nav{
 .cart>i{
     margin-right: 20px;
 }
-
+ /* jumbotron started */
 #banner{
     width: 100%;
     height: calc(100% - 30px);
@@ -67,6 +69,7 @@ nav{
     background-size: cover;
     background-position: center;
     display: flex;
+    background-attachment: fixed;
 }
 
 
@@ -135,6 +138,9 @@ nav{
 }
 
 
+/* 
+COntent1 started */
+
 #content1{
     width: 100%;
     height: 200px;
@@ -158,4 +164,125 @@ nav{
 #para{
     font-size: 15px;
     font-weight: 200px;
+}
+
+
+
+/* card designing started */
+
+
+#content2{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 120%;
+    background-color: #edecec;
+    
+}
+
+.card-holder{
+    width: 80%;
+    height: 100%;
+    padding: 20px 65px;
+
+}
+
+.card{
+    float: left;
+    margin: 10px 15px;
+    height: 48%;
+    width: 47%;
+    background-color: whitesmoke;
+
+}
+
+.card-img{
+    width: 100%;
+    height: 70%;
+    background-color: violet;
+    
+
+
+}
+.card-text{
+    width: 100%;
+    height: 30%;
+    background-color:white;
+
+}
+
+/* card designing ended */
+
+/* new content started*/
+#content3{
+    width: 100%;
+    height: 80%;
+    background-color: #f3f3f3;
+    padding: 120px 210px;
+    display: flex;
+}
+
+#content-in{
+    width: 35%;
+    height: 100%;
+}
+
+#imgcntnt{
+    width: 60%;
+    height: 100%;
+    background-color: #bbb8b8 ;
+}
+
+/* new content4 started*/
+#content4{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 120%;
+    background-color: #edecec;
+    
+}
+
+
+
+#content5{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    background-color: #dfcccc;
+    align-items: center;
+}
+
+#content5>hr{
+    width: 500px;
+}
+
+
+#header{
+
+}
+#smcards{
+    display: flex;
+    justify-content: space-around;
+    height: 45%;
+    width: 65%;
+}
+.mcard{
+    width: 22%;
+    height: 98%;
+    background-color: rgb(212, 169, 169);
+}
+
+.img{
+    width:100%;
+    height: 55%;
+    background-color: royalblue;
+
+}
+
+.txt{
+    width:100%;
+    height: 45%;
+    background-color: rgb(145, 145, 146);
 }
