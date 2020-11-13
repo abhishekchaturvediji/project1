@@ -11,6 +11,18 @@
     <link rel="stylesheet" href="../css/main.css">
 </head>
 <body>
+    
+    <div id="myNav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="overlay-content">
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Clients</a>
+        <a href="#">Contact</a>
+        </div>
+    </div>
+    
+
     <!-- animation started -->
     <div id="animation">
         <div id="wrapper">
@@ -28,8 +40,10 @@
 
     <!-- navbar -->
     <nav id="navid">
-        <div class="navclass shop">
-            <i class="ri-menu-fill"></i>
+        <div class="navclass shop"> 
+            <span id="function" onclick="openNav()">
+                <i class="ri-menu-line"></i>
+            </span>
             <p>Shop <i id="top" class="ri-arrow-right-s-line"></i></p>
         </div>
         <h1 id="head">WOVEN</h1>
@@ -374,5 +388,7 @@
         </div>
     </div>
 
+
+    <script src="../js/script.js"></script>
 </body>
 </html>
